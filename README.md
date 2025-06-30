@@ -2,7 +2,7 @@
 Align or Unalign files to a reference genome using GATK best practices.
 
 ## Overview
-This pipeline is used for unaligning/aligning sequencing data. For eg. to convert hg19 aligned BAM files to hg38 (bam_hg19->FASTQ->bam_hg39). It consists of two main scripts:
+This pipeline is used for unaligning/aligning sequencing data. For eg. to convert hg19 aligned BAM files to hg38 (bam_hg19->FASTQ->bam_hg38). It consists of two main scripts:
 
 * Unalignment: 00_unalign_bams_new.sh step_number
 * Alignment: 00_run_align_call_filter_hg38.sh step_number
